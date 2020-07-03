@@ -8,29 +8,31 @@
 </head>
 
 <body>
-    <!--header section that has the company name and links to their services-->  
-    <header>
+    <!--nav section that has the company name and links to their services-->  
+    <nav>
         <!--creating an id for a span within the company's name to show the different colors-->
         <h1>Hori<span id="seo">seo</span>n</h1>
-        <!--creaating a div here to group the three links to the different sections of the page-->
+        <!--creating a div here to group the three links to the different sections of the page-->
         <div class="container">
             <ul>
                 <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                    <a href="#part1">Search Engine Optimization</a>
                 </li>
                 <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
+                    <a href="#part2">Online Reputation Management</a>
                 </li>
                 <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
+                    <a href="#part3">Social Media Marketing</a>
                 </li>
             </ul>
         </div>
-    </header>
-    <!--Nav section to pull the main image describing the company's work-->
-    <nav></nav>
+    </nav>
+    <!--header section to pull the main image describing the company's work-->
+    <header></header>
+    
+    <!--section that contains descriptions of the company's three primary functions-->
     <section>
-        <article class="float-left">
+        <article class="float-left" id="part1">
             <img src="./assets/images/search-engine-optimization.jpg" alt="SEO components" />
             <h2>Search Engine Optimization</h2>
             <p>
@@ -38,7 +40,7 @@
                 Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </article>
-        <article class="float-right">
+        <article class="float-right" id="part2">
             <img src="./assets/images/online-reputation-management.jpg" alt="Laptop with a Reputation graph" />
             <h2>Online Reputation Management</h2>
             <p>
@@ -46,7 +48,7 @@
                 Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </article>
-        <article class="float-left">
+        <article class="float-left" id="part3">
             <img src="./assets/images/social-media-marketing.jpg" alt="Social Media actions" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -55,35 +57,41 @@
             </p>
         </article>
     </section>
-    <div class="benefits">
-        <div class="benefit-lead">
+    
+    <!-- a side box that shows the benefits of working with the company-->
+    <aside>
+        <div class="benefit-item">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" />
+            <img src="./assets/images/lead-generation.png" alt="lead generation image" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+
+        <div class="benefit-item">
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="brand awareness image"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+
+        <div class="benefit-item">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <img src="./assets/images/cost-management.png" alt="cost management image"></img>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
         </div>
-    </div>
-    <div class="footer">
+    </aside>
+
+    <!--footer to show the page's author and copyright-->
+    <footer>
         <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
